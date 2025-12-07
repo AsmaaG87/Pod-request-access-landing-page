@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pod is a podcast hosting platform that makes it easy to publish your podcast to all major platforms with a single click.">
+    <meta name="author" content="Asmaa GAD">
+    <meta name="keywords" content="Podcast,frontend mentor challenge, landing page, responsive design, html, css, javascript, web development, pod request access landing page">
+    <link rel="canonical" href="https://www.frontendmentor.io/solutions/pod-request-access-landing-page-using-html-css-and-javascript-UX5DK6APPS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <link  rel="icon" type="image/svg+xml" href="resources/images/favicon-32x32.png">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-container">
+        <header>
+           <img src="resources/images/logo.svg"
+           alt="pod logo icon."
+           width="135"
+           height="56">
+        </header>
+        <main>
+            <section class="text-sec">
+                <h1>Publish your podcasts
+                <span>everywhere.</span></h1>
+                <p>Upload your audio to Pod with a single click. We'll then distribute your podcast to Spotify, 
+                Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            </section>
+            <div class="logos-sec">
+                <img src="resources/images/spotify.svg"
+                alt="spotify logo."
+                width="56"
+                height="17">
+                <img src="resources/images/apple-podcast.svg"
+                alt="apple-podcast-logo."
+                width="45"
+                height="17">
+                <img src="resources/images/google-podcasts.svg"
+                alt="google-podcasts-logo"
+                width="73"
+                height="11">
+                <img src="resources/images/pocket-casts.svg"
+                alt="pocket-casts-logo"
+                width="76"
+                height="15">
+            </div>
+            <div class="form-sec">
+                <form id="form" novalidate>
+                    <input type="email"
+                     name="email"
+                     placeholder="Email address"
+                     id="email-input"
+                     aria-label="Enter your email address">
+                     <button type="submit">Request Access</button>
+                     <p id="error-message"></p>
+                </form> 
+            </div>
+        </main>
+        </div>
+    </div>
+    <footer>
+        <small>Copyright&copy;2025. Coded by <a href="https://x.com/Asmaagadel" target="_blank"
+        rel="noopener">Asmaa GAD</a>. Designed by <a href="https://www.frontendmentor.io/"
+        target="_blank" rel="noopener">Frontend Mentor</a></small>
+    </footer>
+    <script src="resources/js/index.js"></script>
+</body>
+</html>
